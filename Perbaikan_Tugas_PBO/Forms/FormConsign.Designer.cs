@@ -433,6 +433,7 @@
             this.rbB4.TabStop = true;
             this.rbB4.Text = "> 21 Kg -";
             this.rbB4.UseVisualStyleBackColor = true;
+            this.rbB4.CheckedChanged += new System.EventHandler(this.rbB4_CheckedChanged);
             // 
             // rbB2
             // 
@@ -444,6 +445,7 @@
             this.rbB2.TabStop = true;
             this.rbB2.Text = "> 1 Kg - 10 Kg";
             this.rbB2.UseVisualStyleBackColor = true;
+            this.rbB2.CheckedChanged += new System.EventHandler(this.rbB2_CheckedChanged);
             // 
             // rbB3
             // 
@@ -455,6 +457,7 @@
             this.rbB3.TabStop = true;
             this.rbB3.Text = "> 11 Kg - 20 Kg";
             this.rbB3.UseVisualStyleBackColor = true;
+            this.rbB3.CheckedChanged += new System.EventHandler(this.rbB3_CheckedChanged);
             // 
             // rbB1
             // 
@@ -466,6 +469,7 @@
             this.rbB1.TabStop = true;
             this.rbB1.Text = "< 1 Kg";
             this.rbB1.UseVisualStyleBackColor = true;
+            this.rbB1.CheckedChanged += new System.EventHandler(this.rbB1_CheckedChanged);
             // 
             // label13
             // 
@@ -484,6 +488,7 @@
             this.btnSimpan.TabIndex = 41;
             this.btnSimpan.Text = "Simpan";
             this.btnSimpan.UseVisualStyleBackColor = true;
+            this.btnSimpan.Click += new System.EventHandler(this.btnSimpan_Click);
             // 
             // btnCancel
             // 
@@ -498,7 +503,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 401);
+            this.ClientSize = new System.Drawing.Size(800, 678);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnSimpan);
             this.Controls.Add(this.rbB4);
@@ -534,6 +539,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FormConsign";
             this.Text = "FormConsign";
+            this.Load += new System.EventHandler(this.FormConsign_Load);
             ((System.ComponentModel.ISupportInitialize)(this.epCorrect)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.epWarning)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.epWrong)).EndInit();

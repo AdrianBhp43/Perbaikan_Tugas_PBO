@@ -38,6 +38,7 @@
             this.panelTitleBar = new System.Windows.Forms.Panel();
             this.lblTitle = new System.Windows.Forms.Label();
             this.panelDesktopPane = new System.Windows.Forms.Panel();
+            this.btnCloseChildForm = new System.Windows.Forms.Button();
             this.panelMenu.SuspendLayout();
             this.panelTitleBar.SuspendLayout();
             this.SuspendLayout();
@@ -146,6 +147,7 @@
             // panelTitleBar
             // 
             this.panelTitleBar.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.panelTitleBar.Controls.Add(this.btnCloseChildForm);
             this.panelTitleBar.Controls.Add(this.lblTitle);
             this.panelTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTitleBar.Location = new System.Drawing.Point(220, 0);
@@ -172,6 +174,16 @@
             this.panelDesktopPane.Name = "panelDesktopPane";
             this.panelDesktopPane.Size = new System.Drawing.Size(864, 431);
             this.panelDesktopPane.TabIndex = 2;
+            // 
+            // btnCloseChildForm
+            // 
+            this.btnCloseChildForm.Location = new System.Drawing.Point(42, 22);
+            this.btnCloseChildForm.Name = "btnCloseChildForm";
+            this.btnCloseChildForm.Size = new System.Drawing.Size(99, 38);
+            this.btnCloseChildForm.TabIndex = 1;
+            this.btnCloseChildForm.Text = "Close";
+            this.btnCloseChildForm.UseVisualStyleBackColor = true;
+            this.btnCloseChildForm.Click += new System.EventHandler(this.btnCloseChildForm_Click);
             // 
             // Form1
             // 
@@ -202,6 +214,7 @@
         private System.Windows.Forms.Panel panelTitleBar;
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.Panel panelDesktopPane;
+        private System.Windows.Forms.Button btnCloseChildForm;
     }
 }
 
