@@ -96,19 +96,8 @@ namespace Perbaikan_Tugas_PBO
         private void btnRegistrasi_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Forms.FormConsign(),sender);
+            this.Size = new Size(1100, 750);
         }
-          
-        private void button1_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new Forms.FormConsign(), sender);
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new Forms.FormConsign(), sender);
-
-        }
-
         private void button3_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Forms.FormConsign(), sender);
@@ -135,6 +124,7 @@ namespace Perbaikan_Tugas_PBO
             panelTitleBar.BackColor = Color.FromArgb(0, 150, 136); 
             panelLogo.BackColor = Color.FromArgb(39, 39, 58); 
             currentButton = null; btnCloseChildForm.Visible = false;
+            this.Size = new Size(1100, 500);
         }
     }
 }

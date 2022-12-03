@@ -67,7 +67,7 @@ namespace Perbaikan_Tugas_PBO.Forms
                                                 "Sudah Berhasil Diisi !",
                                                 "Informasi Data Submit",
                                                  MessageBoxButtons.OK, MessageBoxIcon.Information);
-                                                this.Size = new Size(816, 717);
+                                                this.Size = new Size(1100, 750);
                                             }
                                             else
                                             {
@@ -357,7 +357,35 @@ namespace Perbaikan_Tugas_PBO.Forms
             }
         }
 
-        
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            tbKodeBarang.Clear();
+            cbKondisiBarang.ResetText();
+            tbNamaPengirim.Clear();
+            tbAlamatPengirim.Clear();
+            tbNomorTelepon1.Clear();
+            tbNamaPenerima.Clear();
+            tbAlamatPenerima.Clear();
+            tbNomorTelepon2.Clear();
+            rbTransfer.Checked = false;
+            rbRekber.Checked = false;
+            rbKartuKredit.Checked = false;
+            rbDirectDebit.Checked = false;
+            rbB1.Checked = false;
+            rbB2.Checked = false;
+            rbB3.Checked = false;
+            rbB4.Checked = false;
+            cb1.Checked = false;
+            cb2.Checked = false;
+            cb3.Checked = false;
+            cb4.Checked = false;
+            cb5.Enabled = false;
+            cb6.Enabled = false;
+            cb7.Enabled = false;
+            cb8.Enabled = false;
+            this.Size = new Size(816, 440);
+
+        }
     }
 }
 

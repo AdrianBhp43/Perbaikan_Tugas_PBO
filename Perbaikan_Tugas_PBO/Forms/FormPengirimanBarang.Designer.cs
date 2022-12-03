@@ -82,7 +82,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(59, 143);
+            this.label1.Location = new System.Drawing.Point(24, 144);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(78, 13);
             this.label1.TabIndex = 0;
@@ -90,7 +90,7 @@
             // 
             // tbNamaPengirim
             // 
-            this.tbNamaPengirim.Location = new System.Drawing.Point(183, 143);
+            this.tbNamaPengirim.Location = new System.Drawing.Point(148, 144);
             this.tbNamaPengirim.Name = "tbNamaPengirim";
             this.tbNamaPengirim.Size = new System.Drawing.Size(183, 20);
             this.tbNamaPengirim.TabIndex = 1;
@@ -98,7 +98,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(59, 187);
+            this.label2.Location = new System.Drawing.Point(24, 188);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(82, 13);
             this.label2.TabIndex = 2;
@@ -107,7 +107,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(59, 335);
+            this.label3.Location = new System.Drawing.Point(24, 320);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(105, 13);
             this.label3.TabIndex = 4;
@@ -116,7 +116,7 @@
             // rbTransfer
             // 
             this.rbTransfer.AutoSize = true;
-            this.rbTransfer.Location = new System.Drawing.Point(183, 335);
+            this.rbTransfer.Location = new System.Drawing.Point(148, 320);
             this.rbTransfer.Name = "rbTransfer";
             this.rbTransfer.Size = new System.Drawing.Size(64, 17);
             this.rbTransfer.TabIndex = 7;
@@ -135,7 +135,7 @@
             // 
             // tbNomorTelepon1
             // 
-            this.tbNomorTelepon1.Location = new System.Drawing.Point(183, 275);
+            this.tbNomorTelepon1.Location = new System.Drawing.Point(148, 276);
             this.tbNomorTelepon1.Name = "tbNomorTelepon1";
             this.tbNomorTelepon1.Size = new System.Drawing.Size(183, 20);
             this.tbNomorTelepon1.TabIndex = 12;
@@ -144,7 +144,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(59, 275);
+            this.label5.Location = new System.Drawing.Point(24, 276);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(80, 13);
             this.label5.TabIndex = 11;
@@ -153,7 +153,7 @@
             // rbKartuKredit
             // 
             this.rbKartuKredit.AutoSize = true;
-            this.rbKartuKredit.Location = new System.Drawing.Point(280, 334);
+            this.rbKartuKredit.Location = new System.Drawing.Point(245, 319);
             this.rbKartuKredit.Name = "rbKartuKredit";
             this.rbKartuKredit.Size = new System.Drawing.Size(80, 17);
             this.rbKartuKredit.TabIndex = 13;
@@ -164,7 +164,7 @@
             // rbRekber
             // 
             this.rbRekber.AutoSize = true;
-            this.rbRekber.Location = new System.Drawing.Point(183, 365);
+            this.rbRekber.Location = new System.Drawing.Point(148, 350);
             this.rbRekber.Name = "rbRekber";
             this.rbRekber.Size = new System.Drawing.Size(60, 17);
             this.rbRekber.TabIndex = 14;
@@ -175,7 +175,7 @@
             // rbDirectDebit
             // 
             this.rbDirectDebit.AutoSize = true;
-            this.rbDirectDebit.Location = new System.Drawing.Point(280, 365);
+            this.rbDirectDebit.Location = new System.Drawing.Point(245, 350);
             this.rbDirectDebit.Name = "rbDirectDebit";
             this.rbDirectDebit.Size = new System.Drawing.Size(81, 17);
             this.rbDirectDebit.TabIndex = 15;
@@ -197,7 +197,7 @@
             // 
             // tbAlamatPengirim
             // 
-            this.tbAlamatPengirim.Location = new System.Drawing.Point(183, 186);
+            this.tbAlamatPengirim.Location = new System.Drawing.Point(148, 187);
             this.tbAlamatPengirim.Multiline = true;
             this.tbAlamatPengirim.Name = "tbAlamatPengirim";
             this.tbAlamatPengirim.Size = new System.Drawing.Size(183, 67);
@@ -206,7 +206,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(59, 101);
+            this.label6.Location = new System.Drawing.Point(24, 102);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(78, 13);
             this.label6.TabIndex = 21;
@@ -215,7 +215,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(447, 101);
+            this.label7.Location = new System.Drawing.Point(412, 102);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(82, 13);
             this.label7.TabIndex = 28;
@@ -223,7 +223,7 @@
             // 
             // tbAlamatPenerima
             // 
-            this.tbAlamatPenerima.Location = new System.Drawing.Point(571, 186);
+            this.tbAlamatPenerima.Location = new System.Drawing.Point(536, 187);
             this.tbAlamatPenerima.Multiline = true;
             this.tbAlamatPenerima.Name = "tbAlamatPenerima";
             this.tbAlamatPenerima.Size = new System.Drawing.Size(183, 67);
@@ -231,7 +231,7 @@
             // 
             // tbNomorTelepon2
             // 
-            this.tbNomorTelepon2.Location = new System.Drawing.Point(571, 275);
+            this.tbNomorTelepon2.Location = new System.Drawing.Point(536, 276);
             this.tbNomorTelepon2.Name = "tbNomorTelepon2";
             this.tbNomorTelepon2.Size = new System.Drawing.Size(183, 20);
             this.tbNomorTelepon2.TabIndex = 26;
@@ -240,7 +240,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(447, 275);
+            this.label8.Location = new System.Drawing.Point(412, 276);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(80, 13);
             this.label8.TabIndex = 25;
@@ -249,7 +249,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(447, 187);
+            this.label9.Location = new System.Drawing.Point(412, 188);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(86, 13);
             this.label9.TabIndex = 24;
@@ -257,7 +257,7 @@
             // 
             // tbNamaPenerima
             // 
-            this.tbNamaPenerima.Location = new System.Drawing.Point(571, 143);
+            this.tbNamaPenerima.Location = new System.Drawing.Point(536, 144);
             this.tbNamaPenerima.Name = "tbNamaPenerima";
             this.tbNamaPenerima.Size = new System.Drawing.Size(183, 20);
             this.tbNamaPenerima.TabIndex = 23;
@@ -265,7 +265,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(447, 143);
+            this.label10.Location = new System.Drawing.Point(412, 144);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(82, 13);
             this.label10.TabIndex = 22;
@@ -277,7 +277,7 @@
             this.cbKondisiBarang.Items.AddRange(new object[] {
             "Baru",
             "Bekas"});
-            this.cbKondisiBarang.Location = new System.Drawing.Point(571, 52);
+            this.cbKondisiBarang.Location = new System.Drawing.Point(536, 53);
             this.cbKondisiBarang.Name = "cbKondisiBarang";
             this.cbKondisiBarang.Size = new System.Drawing.Size(183, 21);
             this.cbKondisiBarang.TabIndex = 30;
@@ -285,7 +285,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(447, 55);
+            this.label11.Location = new System.Drawing.Point(412, 56);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(78, 13);
             this.label11.TabIndex = 31;
@@ -293,7 +293,7 @@
             // 
             // tbKodeBarang
             // 
-            this.tbKodeBarang.Location = new System.Drawing.Point(183, 55);
+            this.tbKodeBarang.Location = new System.Drawing.Point(148, 56);
             this.tbKodeBarang.Name = "tbKodeBarang";
             this.tbKodeBarang.Size = new System.Drawing.Size(183, 20);
             this.tbKodeBarang.TabIndex = 33;
@@ -302,7 +302,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(59, 55);
+            this.label12.Location = new System.Drawing.Point(24, 56);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(69, 13);
             this.label12.TabIndex = 32;
@@ -318,7 +318,7 @@
             this.groupBox2.Controls.Add(this.cb3);
             this.groupBox2.Controls.Add(this.cb2);
             this.groupBox2.Controls.Add(this.cb1);
-            this.groupBox2.Location = new System.Drawing.Point(528, 432);
+            this.groupBox2.Location = new System.Drawing.Point(493, 395);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(226, 131);
             this.groupBox2.TabIndex = 34;
@@ -415,7 +415,7 @@
             // 
             // btnSelanjutnya
             // 
-            this.btnSelanjutnya.Location = new System.Drawing.Point(618, 335);
+            this.btnSelanjutnya.Location = new System.Drawing.Point(583, 320);
             this.btnSelanjutnya.Name = "btnSelanjutnya";
             this.btnSelanjutnya.Size = new System.Drawing.Size(106, 47);
             this.btnSelanjutnya.TabIndex = 35;
@@ -426,7 +426,7 @@
             // rbB4
             // 
             this.rbB4.AutoSize = true;
-            this.rbB4.Location = new System.Drawing.Point(280, 472);
+            this.rbB4.Location = new System.Drawing.Point(245, 435);
             this.rbB4.Name = "rbB4";
             this.rbB4.Size = new System.Drawing.Size(68, 17);
             this.rbB4.TabIndex = 40;
@@ -438,7 +438,7 @@
             // rbB2
             // 
             this.rbB2.AutoSize = true;
-            this.rbB2.Location = new System.Drawing.Point(183, 472);
+            this.rbB2.Location = new System.Drawing.Point(148, 435);
             this.rbB2.Name = "rbB2";
             this.rbB2.Size = new System.Drawing.Size(93, 17);
             this.rbB2.TabIndex = 39;
@@ -450,7 +450,7 @@
             // rbB3
             // 
             this.rbB3.AutoSize = true;
-            this.rbB3.Location = new System.Drawing.Point(280, 441);
+            this.rbB3.Location = new System.Drawing.Point(245, 404);
             this.rbB3.Name = "rbB3";
             this.rbB3.Size = new System.Drawing.Size(99, 17);
             this.rbB3.TabIndex = 38;
@@ -462,7 +462,7 @@
             // rbB1
             // 
             this.rbB1.AutoSize = true;
-            this.rbB1.Location = new System.Drawing.Point(183, 442);
+            this.rbB1.Location = new System.Drawing.Point(148, 405);
             this.rbB1.Name = "rbB1";
             this.rbB1.Size = new System.Drawing.Size(56, 17);
             this.rbB1.TabIndex = 37;
@@ -474,7 +474,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(59, 442);
+            this.label13.Location = new System.Drawing.Point(24, 405);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(69, 13);
             this.label13.TabIndex = 36;
@@ -482,7 +482,7 @@
             // 
             // btnSimpan
             // 
-            this.btnSimpan.Location = new System.Drawing.Point(280, 612);
+            this.btnSimpan.Location = new System.Drawing.Point(245, 533);
             this.btnSimpan.Name = "btnSimpan";
             this.btnSimpan.Size = new System.Drawing.Size(106, 47);
             this.btnSimpan.TabIndex = 41;
@@ -492,18 +492,19 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(428, 612);
+            this.btnCancel.Location = new System.Drawing.Point(393, 533);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(106, 47);
             this.btnCancel.TabIndex = 42;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // FormConsign
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 678);
+            this.ClientSize = new System.Drawing.Size(800, 592);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnSimpan);
             this.Controls.Add(this.rbB4);
@@ -538,7 +539,7 @@
             this.Controls.Add(this.tbNamaPengirim);
             this.Controls.Add(this.label1);
             this.Name = "FormConsign";
-            this.Text = "FormConsign";
+            this.Text = "Form Pengiriman Barang";
             this.Load += new System.EventHandler(this.FormConsign_Load);
             ((System.ComponentModel.ISupportInitialize)(this.epCorrect)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.epWarning)).EndInit();
